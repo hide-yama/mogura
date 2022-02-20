@@ -1,0 +1,17 @@
+#hallArea {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: space-between;
+}
+.hall{
+    width: 30%;
+    overflow: hidden;
+}
+.hall img{
+    width: 100%;
+    transition: 1s;
+}
+.invisible {
+    transform: translateY(100%);
+}
